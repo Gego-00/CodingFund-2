@@ -13,9 +13,9 @@ const WINNING_COMBINATIONS = [
 const statusDisplay = document.querySelector(".game--status");
 const cellElements = document.querySelectorAll("[data-cell]");
 const board = document.getElementById("board");
-const winningMessage = () => `Player ${currentPlayer} has won!`;
-const drawMessage = () => `Game ended in a draw!`;
-const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
+const winningMessage = () => `Jugador ${currentPlayer} ha ganado!`;
+const drawMessage = () => `Juego termino en empate!`;
+const currentPlayerTurn = () => `Es el turno de ${currentPlayer}`;
 const restartButton = document.getElementById("restartButton");
 const winningMessageTextElement = document.querySelector(
   "[data-winning-message-text]"
